@@ -138,7 +138,7 @@ io.on("connection", (socket) => {
 });
 
 //  Server and static build setup
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 5001;
 const __dirname = path.resolve();
 
 app.use(express.static(path.join(__dirname, "/frontend/dist")));
