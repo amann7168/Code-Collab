@@ -8,7 +8,7 @@ import {v4 as uuid} from 'uuid';
 // socket se connection liya
 import io from 'socket.io-client';
 
-const socket=io("http://localhost:5000");
+const socket=io("http://localhost:5001");
 const App = () => {
   // check if user joined
   const [joined,setJoined]=useState(false);
